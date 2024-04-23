@@ -1,4 +1,4 @@
-# Brevo Assignment (Angular 17)
+# Signals tryour (Angular 17)
 
 ## Table of Contents
 
@@ -24,20 +24,6 @@
 
 3. Open your web browser and navigate to `http://localhost:4200/` to view the application.
    Please note that you will be redirected to `http://localhost:4200/brevo/home` automatically.
-
-## Screenshots
-
-![Brevo App Initial State](app-screenshots/brevo-app-initial.png)
-_Initial state of the app when navigated to `http://localhost:4200/brevo/home`_
-
-![Brevo App Functional State](app-screenshots/brevo-app-functional.png)
-_App state where all events are in action_
-
-![Brevo App Side Menu Validation](app-screenshots/brevo-app-validation.png)
-_App state where input field 'Text Color' points out invalid color code entry by user_
-
-![Brevo App Side API Error](app-screenshots/brevo-app-api-error.png)
-_App state where error message is displayed due to API failure and logged into console_
 
 ## Technical Choices
 
