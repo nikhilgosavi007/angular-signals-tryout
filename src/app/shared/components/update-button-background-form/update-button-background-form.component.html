@@ -1,0 +1,32 @@
+<h5 class="my-3">Button Styling</h5>
+<form [formGroup]="updateBackgroundColorForm" class="row align-items-center">
+  <p class="col m-0">Background Color</p>
+  <div class="col">
+    <input
+      aria-label="input button color"
+      class="form-control"
+      formControlName="buttonBackgroundColor"
+      placeholder="#1f1f1f"
+      type="text"
+    />
+  </div>
+  <div
+    *ngIf="
+      updateBackgroundColorFormControl.buttonBackgroundColor.touched ||
+      updateBackgroundColorFormControl.buttonBackgroundColor.dirty
+    "
+    class="m-0"
+  >
+    <div
+      *ngIf="
+        updateBackgroundColorFormControl.buttonBackgroundColor.hasError(
+          'pattern'
+        )
+      "
+      class="invalid-feedback d-block"
+    >
+      Invalid color code format. Please enter a valid hex color code (e.g.,
+      #ff0000).
+    </div>
+  </div>
+</form>

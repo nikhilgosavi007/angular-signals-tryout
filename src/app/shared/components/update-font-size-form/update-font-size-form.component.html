@@ -1,0 +1,17 @@
+<h5 class="my-3">Text Styling</h5>
+<div class="row align-items-center">
+  <p class="col m-0">Font Size</p>
+  <div class="col">
+    <select
+      (ngModelChange)="onFontSizeChange($event)"
+      [ngModel]="selectedFontSize"
+      aria-label="select text size"
+      class="form-select form-select-md"
+    >
+      <option selected value="default">Select</option>
+      <option *ngFor="let size of fontSizesArray" [value]="size">
+        {{ size }}
+      </option>
+    </select>
+  </div>
+</div>
