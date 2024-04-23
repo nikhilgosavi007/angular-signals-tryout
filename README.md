@@ -3,7 +3,6 @@
 ## Table of Contents
 
 - [Setup and Start application](#setup)
-- [Screenshots](#screenshots)
 - [Technical Choices](#technical-choices)
 - [Assumptions](#assumptions)
 - [ToDo's](#todos)
